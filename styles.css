@@ -1,0 +1,158 @@
+:root {
+    --mainColor: rgb(20, 158, 244);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 80px;
+
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.logo {
+    /* width: 35%; */
+    flex: .4;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-left: 30%;
+
+}
+
+.logo div h1 {
+
+    position: relative;
+}
+.logo h1 span {
+    position: absolute;
+    color: var(--mainColor);
+}
+
+.logo > div p {
+    color: gray;
+}
+
+nav ul {
+    display: flex;
+    flex: .6;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--mainColor);
+    height: 100%;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+nav .logo__button {
+    flex: .4;
+    position: relative;
+    align-items: center;
+    height: 100%;
+}
+
+nav .logo__button > button {
+    position: absolute;
+    right: 18%;
+    top: 22%;
+    border-radius: 10px;
+    padding: 8px 20px;
+    color: var(--mainColor);
+    border-color: var(--mainColor);
+    background: #fff;
+
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://wallpapercave.com/wp/wp5842887.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.home h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    line-height: 4rem;
+    
+}
+
+.home h1 span {
+    color: rgb(20, 158, 244);
+}
+
+.home > p {
+    padding: 0 25px;
+    color: #ffffff88;
+}
+
+.home__button {
+    margin-top: 2.5rem;
+    background-color: none;
+    color: #fff;
+    display: flex;
+}
+
+.home__button div:nth-child(1), 
+.home__button div:nth-child(2) {
+    padding: 10px 20px;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 11px;
+}
+
+.home__button div:nth-child(2) {
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
